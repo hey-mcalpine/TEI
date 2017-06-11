@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp_mcalpine.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>James Comey's Statement for the Record</title>
+                <author>
+                    <persName>James Comey</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>  
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>CBC News Full Text of Comey's Statement http://www.cbc.ca/news/world/james-comey-statement-senate-intelligence-1.415001
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="Statement">
+                <head><lb/>Statement for the Record
+                <lb/>Senate Select Committee on Intelligence
+                <lb corresp="#Comey"/>James B. Comey
+                <date><lb/>June 8, 2017</date></head>
+                
+                <salute>Chairman <ref corresp="#Burr">Burr</ref>, Ranking Member <ref corresp="#Warner">Warner</ref>, Members of the Committee.</salute>
+                
+                <p>Thank you for inviting me to appear before you today. I was asked to testify today to describe for you my interactions with <roleName >President</roleName>-elect and <roleName >President</roleName> <ref>Trump</ref> on subjects that I understand are of interest to you.</p>
+                
+                <p>I have not included every detail from my conversations with the <roleName>President</roleName>, but, to the best of my recollection, I have tried to include information that may be relevant to the committee.</p>
+                <div type="Narrative"><head>Jan. 6 briefing</head>
+               
+                <p>I first met then-<roleName>President</roleName>-elect <ref>Trump</ref> on Friday, Jan. 6 in a conference room at <placeName type="building">Trump Tower</placeName> in <placeName type="city">New York</placeName>. I was there with other intelligence community <orgName>(IC)</orgName> leaders to brief him and his new national security team on the findings of an <orgName>IC</orgName> assessment concerning Russian efforts to interfere in the election.</p>
+                
+                <p>At the conclusion of that briefing, I remained alone with the <roleName>President</roleName>-elect to brief him on some personally sensitive aspects of the information assembled during the assessment. The <orgName>IC</orgName> leadership thought it important, for a variety of reasons, to alert the incoming <roleName>President</roleName> to the existence of this material, even though it was salacious and unverified.</p>
+                    
+                <p>Among those reasons were: (1) we knew the media was about to publicly report the material, and we believed the <orgName>IC</orgName> should not keep knowledge of the material and its imminent release from the <roleName>President</roleName>-elect; and (2) to the extent there was some effort to compromise an incoming <roleName>President</roleName>, we could blunt any such effort with a defensive briefing.</p>
+                    
+                <p>The director of national intelligence asked that I personally do this portion of the briefing because I was staying in my position and because the material implicated the <orgName>FBI</orgName>'s counter-intelligence responsibilities.</p>
+                    
+                <p>We also agreed I would do it alone to minimize potential <seg ana="#embarassment">embarrassment</seg> to the <roleName>President</roleName>-elect. Although we agreed it made sense for me to do the briefing, the <orgName>FBI</orgName>'s leadership and I were concerned that the briefing might create a situation where a new <roleName>President</roleName> came into office <seg ana="#uncertainty">uncertain</seg> about whether the <orgName>FBI</orgName> was conducting a counter-intelligence investigation of his personal conduct.</p>
+                    
+                <p>It is important to understand that <orgName>FBI</orgName> counter-intelligence investigations are different than the more-commonly known criminal investigative work. The bureau's goal in a counter-intelligence investigation is to understand the technical and human methods that hostile foreign powers are using to influence the United States or to steal our secrets.</p>
+                    
+                <p>The <orgName>FBI</orgName> uses that understanding to disrupt those efforts. Sometimes, disruption takes the form of alerting a person who is targeted for recruitment or influence by the foreign power. Sometimes, it involves hardening a computer system that is being attacked. Sometimes, it involves "turning" the recruited person into a double-agent or publicly calling out the behaviour with sanctions or expulsions of embassy-based intelligence officers.</p>     
+                         
+                <p>On occasion, criminal prosecution is used to disrupt intelligence activities. Because the nature of the hostile foreign nation is well known, counterintelligence investigations tend to be centred on individuals the <orgName>FBI</orgName> suspects to be witting or <seg ana="#uncertainty">unwitting</seg> agents of that foreign power.</p>
+                         
+                <p>When the <orgName>FBI</orgName> develops reason to believe an American has been targeted for recruitment by a foreign power or is covertly acting as an agent of the foreign power, the <orgName>FBI</orgName> will "open an investigation" on that American and use legal authorities to try to learn more about the nature of any relationship with the foreign power so it can be disrupted. In that context, prior to the Jan. 6 meeting, I discussed with the <orgName>FBI</orgName>'s leadership team whether I should be prepared to assure <roleName>President</roleName>-elect <ref>Trump</ref> that we were not investigating him personally.</p>      
+                    
+                <p>That was true; we did not have an open counter-intelligence case on him. We agreed I should do so if circumstances warranted. During our one-on-one meeting at <placeName type="building">Trump Tower</placeName>, based on <roleName>President</roleName>-elect <ref>Trump</ref>'s <seg corresp="#reaction">reaction</seg> to the briefing and without him directly asking the question, I offered that assurance.</p>
+                    
+                <p>I felt <seg ana="#compelled">compelled</seg> to document my first conversation with the <roleName>President</roleName>-elect in a memo. To ensure accuracy, I began to type it on a laptop in an <orgName>FBI</orgName> vehicle outside <placeName type="building">Trump Tower</placeName> the moment I walked out of the meeting.</p>
+                    
+                <p>Creating written records immediately after one-on-one conversations with Mr. <ref>Trump</ref> was my practice from that point forward. This had not been my practice in the past. I spoke alone with <roleName>President</roleName> <ref corresp="#Obama">Obama</ref> twice in person (and never on the phone) — once in 2015 to discuss law enforcement policy issues and a second time, briefly, for him to say goodbye in late 2016. In neither of those circumstances did I memorialize the discussions.</p>
+                    
+                <p>I can recall nine one-on-one conversations with <roleName>President</roleName> <ref>Trump</ref> in four months — three in person and six on the phone.</p>
+                           
+           </div>
+                <div type="Narrative">
+                    <head>Jan. 27 dinner</head>
+                    
+                    <p>The <roleName>President</roleName> and I had dinner on Friday, Jan. 27 at 6:30 pm in the <placeName type="room">Green Room</placeName> at the <placeName type="building">White House</placeName>.</p>
+                    
+                    <p>He had called me at lunchtime that day and invited me to dinner that night, saying <said corresp="#Trump" direct="false">he was going to invite my whole family but decided to have just me this time, with the whole family coming the next time.</said> It was <seg ana="#uncertainty">unclear</seg> from the conversation who else would be at the dinner, although I <seg ana="#uncertainty">assumed</seg> there would be others.</p>
+                    
+                    <p>It turned out to be just the two of us, seated at a small oval table in the centre of the <placeName type="room">Green Room</placeName>. Two Navy stewards waited on us, only entering the room to serve food and drinks.</p>
+                    
+                    <p>The <roleName>President</roleName> began by asking me whether I wanted to stay on as <roleName><orgName>FBI</orgName>director</roleName>, which <seg ana="#surprise">I found strange</seg> because he had already told me twice in earlier conversations that <said corresp="#Trump" direct="false">he hoped I would stay,</said> and I had assured him that <said corresp="#Comey" direct="false">I intended to.</said></p>
+                    
+                    <p>He said that <said corresp="#Trump" direct="false">lots of people wanted my job and, given the abuse I had taken during the previous year, he would understand if I wanted to walk away.</said></p>
+                    
+                   <p> <seg ana="#suspicion">My instincts told me</seg> that the one-on-one setting, and the pretense that this was our first discussion about my position, meant the dinner was, at least in part, an effort to have me ask for my job and create some sort of patronage relationship.</p>
+                    
+                    <p>That <seg ana="#concern">concerned</seg> me greatly, given the <orgName>FBI</orgName>'s traditionally independent status in the executive branch. I replied that <said corresp="#Comey" direct="false">I loved my work and intended to stay and serve out my ten-year term as <roleName>director</roleName>.</said> And then, because the set-up made me <seg ana="#discomfort">uneasy</seg>, I added that <said corresp="#Comey" direct="false">I was not "reliable" in the way politicians use that word, but he could always <seg ana="#certainty">count on me</seg> to tell him the truth.</said></p>
+                    
+                    <p>I added that <said corresp="#Comey" direct="false">I was not on anybody's side politically and <seg ana="#uncertainty">could not be counted on</seg> in the traditional political sense, a stance I said was in his best interest as the <roleName>President</roleName></said>. A few moments later, the <roleName>President</roleName> said, <quote corresp="#Trump">I need loyalty, I expect loyalty.</quote></p>
+                    
+                    <p>I didn't move, speak, or change my facial expression in any way during the <seg ana="#discomfort">awkward</seg> silence that followed. We simply looked at each other in silence. The conversation then moved on, but he returned to the subject near the end of our dinner. At one point, I explained why it was so important that the <orgName>FBI</orgName> and the <orgName>Department of Justice</orgName> be independent of the White House.</p>
+                    
+                    <p>I said <said corresp="#Comey" direct="false">it was a paradox: Throughout history, some <roleName>President</roleName>s have decided that because "problems" come from <orgName>Justice</orgName>, they should try to hold the department close. But blurring those boundaries ultimately makes the problems worse by <seg ana="#uncertainty">undermining public trust</seg> in the institutions and their work.</said></p>
+                    
+                    <p>Near the end of our dinner, the <roleName>President</roleName> returned to the subject of my job, saying <said corresp="#Trump" direct="false">he was very <seg ana="#happy">glad</seg> I wanted to stay, adding that he had heard great things about me from [<roleName>Secretary of Defence</roleName>] <ref corresp="#Mattis">Jim Mattis</ref>, [<roleName>Attorney General</roleName>] <ref corresp="#Sessions">Jeff Sessions</ref> and many others.</said></p>
+                    
+                    <p>He then said, <quote corresp="#Trump">I need loyalty.</quote> I replied, <quote corresp="#Comey">You will always get honesty from me.</quote> He paused and then said, <quote corresp="#Trump">That's what I want, honest loyalty.</quote> I paused and then said, <quote corresp="#Comey">You will get that from me.</quote> As I wrote in the memo I created immediately after the dinner, it is possible we <seg ana="#uncertainty">understood the phrase "honest loyalty" differently</seg>, but I decided it wouldn't be productive to push it further.</p>
+                    
+                    <p>The term — honest loyalty — had helped end a very <seg ana="#discomfort">awkward</seg> conversation and my explanations had <seg ana="#certainty">made clear</seg> what he should expect. During the dinner, the <roleName>President</roleName> returned to the salacious material I had briefed him about on Jan. 6 and, as he had done previously, expressed his <seg ana="#discomfort">disgust</seg> for the allegations and strongly denied them.</p>
+                    
+                    <p>He said <said corresp="#Trump" direct="false">he was considering ordering me to investigate the alleged incident to prove it didn't happen.</said> I replied that <said corresp="#Comey" direct="false">he should give that careful thought because it might create a narrative that we were investigating him personally, which we weren't, and because it was very difficult to prove a negative.</said></p>
+                    
+                    <p>He said <said corresp="#Trump" direct="false">he would think about it and asked me to think about it.</said> As was my practice for conversations with <roleName>President</roleName> <ref>Trump</ref>, I wrote a detailed memo about the dinner immediately afterwards and shared it with the senior leadership team of the <orgName>FBI</orgName>.</p>
+                </div>
+                <div type="Narrative">
+                    <head>Feb. 14 <placeName type="room">Oval Office</placeName> meeting</head>
+                    <p>On Feb. 14, I went to the <placeName type="room">Oval Office</placeName> for a scheduled counterterrorism briefing of the <roleName>President</roleName>. He sat behind the desk and a group of us sat in a semi-circle of about six chairs facing him on the other side of the desk.</p>
+                    
+                    <p>The vice-<roleName>President</roleName>, <roleName>deputy director</roleName> of the <orgName>CIA</orgName>, <roleName>director</roleName> of the <orgName>National Counterterrorism Center</orgName> (<orgName>NCTC</orgName>), <roleName>secretary</roleName> of <orgName>homeland security</orgName>, the <roleName>attorney general</roleName> and I were in the semi-circle of chairs.</p> <!-- identify and add in corresps for all of these people-->
+                    
+                    <p>I was directly facing the <roleName>President</roleName>, sitting between the <roleName>deputy <orgName>CIA</orgName> director</roleName> and the <roleName>director</roleName> of <orgName>NCTC</orgName>. There were quite a few others in the room, sitting behind us on couches and chairs. The <roleName>President</roleName> signaled the end of the briefing by <said corresp="#Trump" direct="false">thanking the group and telling them all that he wanted to speak to me alone.</said></p>
+                    
+                    <p>I stayed in my chair. As the participants started to leave the Oval Office, the <roleName corresp="#Sessions">attorney general</roleName> lingered by my chair, but the <roleName>President</roleName> <said corresp="#Trump" direct="false">thanked him and said he wanted to speak only with me.</said></p>
+                    
+                   <p> The last person to leave was <ref corresp="#Kushner">Jared Kushner</ref>, who also stood by my chair and exchanged pleasantries with me. The <roleName>President</roleName> then <said corresp="#Trump" direct="false">excused him, saying he wanted to speak with me.</said></p>
+                    
+                    <p>When the door by the grandfather clock closed, and we were alone, the <roleName>President</roleName> began by saying, <quote corresp="#Trump">I want to talk about <ref corresp="#Flynn">Mike Flynn</ref>.</quote> <ref corresp="#Flynn">Flynn</ref> had resigned [as national security advisor] the previous day. The <roleName>President</roleName> began by saying <said corresp="#Trump" direct="false"><ref corresp="#Flynn">Flynn</ref> hadn't done anything wrong in speaking with the Russians, but he had to let him go because he had misled the vice-<roleName>President</roleName>.</said></p>
+                    
+                    <p>He added that <said corresp="#Trump" direct="false">he had other <seg ana="#concern">concerns</seg> about <ref corresp="#Flynn">Flynn</ref></said>, which he did not then specify. The <roleName>President</roleName> then <said corresp="#Trump" direct="false">made a long series of comments about the problem with leaks of classified information</said> — a <seg ana="#concern">concern</seg> I shared and still share.</p>
+                    
+                    <p>After he had spoken for a few minutes about leaks, [<roleName>White House chief of staff</roleName>] <ref corresp="#Priebus">Reince Priebus</ref> leaned in through the door by the grandfather clock, and I could see a group of people waiting behind him. The <roleName>President</roleName> waved at him to close the door, saying <said corresp="#Trump" direct="false">he would be done shortly.</said> The door closed.</p>
+                  
+                  <p>The <roleName>President</roleName> then returned to the topic of <ref corresp="#Flynn">Mike Flynn</ref>, saying, <quote corresp="#Trump">He is a good guy and has been through a lot.</quote> He repeated that <said corresp="#Trump" direct="false"><ref corresp="#Flynn">Flynn</ref> hadn't done anything wrong on his calls with the Russians but had misled the <ref corresp="#Pence">vice-<roleName>President</roleName></ref>.</said></p>
+                  
+                  <p>He then said, <quote corresp="#Trump">I hope you can see your way clear to letting this go, to letting <ref corresp="#Flynn">Flynn</ref> go. He is a good guy. I hope you can let this go.</quote> I replied only that, <quote corresp="#Comey">He is a good guy.</quote> (In fact, I had a positive experience dealing with <ref corresp="#Flynn">Mike Flynn</ref> when he was a colleague as <roleName>director</roleName> of the <orgName>Defence Intelligence Agency</orgName> at the beginning of my term at <orgName>FBI</orgName>.)</p>
+                    
+                    <p>I <said corresp="#Comey" direct="false">did not say I would "let this go."</said> The <roleName>President</roleName> returned briefly to <said corresp="#Trump" direct="false">the problem of leaks</said>. I then got up and left out the door by the grandfather clock, making my way through the large group of people waiting there, including <ref corresp="#Priebus">Mr. Priebus</ref> and the <ref corresp="#Pence">vice-<roleName>President</roleName></ref>.</p>
+                    
+                    <p>I immediately prepared an unclassified memo of the conversation about <ref corresp="#Flynn">Flynn</ref> and discussed the matter with FBI senior leadership. I had understood the <roleName>President</roleName> to be requesting that we drop any investigation of <ref corresp="#Flynn">Flynn</ref> in connection with false statements about his conversations with the <roleName corresp="#Kislyak">Russian ambassador</roleName> in December.</p>
+                    
+                    <p>I did not understand the <roleName>President</roleName> to be talking about the broader investigation into <country>Russia</country> or possible links to his campaign. I could be wrong, but I took him to be focusing on what had just happened with <ref corresp="#Flynn">Flynn's</ref> departure and the controversy around his account of his phone calls.</p>
+                    
+                    <p>Regardless, it was very <seg ana="#concern">concerning</seg>, given the <orgName>FBI</orgName>'s role as an independent investigative agency. The <orgName>FBI</orgName> leadership team agreed with me that it was important not to infect the investigative team with the <roleName>President</roleName>'s request, which we did not intend to abide.</p>
+                    
+                   <p> We also concluded that, given that it was a one-on-one conversation, there was nothing available to corroborate my account. We concluded it made little sense to report it to <roleName>Attorney General</roleName> <ref corresp="#Sessions">Sessions</ref>, who we expected would likely recuse himself from involvement in <country>Russia</country>-related investigations. (He did so two weeks later.)</p>
+                   
+                   <p>The <roleName>deputy attorney general</roleName>'s role was then filled in an acting capacity by a United States Attorney, who would also not be long in the role.</p>
+                        
+                   <p>After discussing the matter, we decided to keep it very closely held, resolving to figure out what to do with it down the road as our investigation progressed. The investigation moved ahead at full speed, with none of the investigative team members — or the <orgName>Department of Justice</orgName> lawyers supporting them — <seg ana="#uncertainty">aware</seg> of the <roleName>President</roleName>'s request.</p>
+                        
+                   <p>Shortly afterwards, I spoke with <roleName>Attorney General</roleName> <ref corresp="#Sessions">Sessions</ref> in person to pass along the <roleName>President</roleName>'s <seg ana="#concern">concerns</seg> about leaks. I took the opportunity to implore the <roleName corresp="#Sessions">attorney general</roleName> to prevent any future direct communication between the <roleName>President</roleName> and me.</p>
+                        
+                   <p>I told the <roleName corresp="#Sessions">AG</roleName> that what had just happened — him being asked to leave while the <roleName>FBI director</roleName>, who reports to the <roleName corresp="#Sessions">AG</roleName>, remained behind — was inappropriate and should never happen.</p>
+                        
+                   <p>He did not reply. For the reasons discussed above, I did not mention that the <roleName>President</roleName> broached the <orgName>FBI</orgName>'s potential investigation of <roleName corresp="#Flynn">General</roleName> <ref corresp="#Flynn">Flynn</ref>.</p>                   
+                    
+                </div>
+                <div type="Narrative">
+                    <head>March 30 phone call</head>
+                    <p>On the morning of March 30, <roleName>the <roleName>President</roleName></roleName> called me at the <orgName>FBI</orgName>. He <said corresp="#Trump" direct="false">described the <country>Russia</country> investigation as "a cloud" that was impairing his ability to act on behalf of the country. He said he had nothing to do with <country>Russia</country>, had not been involved with hookers in <country>Russia</country> and had always assumed he was being recorded when in <country>Russia</country>.</said></p>
+                    
+                   <p> He asked <said corresp="#Trump" direct="false">what we could do to "lift the cloud."</said> I responded that <said corresp="#Comey" direct="false">we were investigating the matter as quickly as we could and that there would be great benefit, if we didn't find anything, to our having done the work well.</said></p>
+                    
+                   <p> He <said corresp="#Trump" direct="false">agreed but then re-emphasized the problems this was causing him. Then the <roleName>President</roleName> asked why there had been a congressional hearing about <country>Russia</country> the previous week — at which I had, as the <orgName>Department of Justice</orgName> directed, confirmed the investigation into possible co-ordination between <country>Russia</country> and the Trump campaign.</said></p>
+                    
+                  <p> I explained <said corresp="#Comey" direct="false">the demands from the leadership of both parties in <orgName>Congress</orgName> for more information and that Senator Grassley had even held up the confirmation of the <roleName>deputy attorney general</roleName> until we briefed him in detail on the investigation.</said></p>
+                    
+                    <p>I explained that <said corresp="#Comey" direct="false">we had briefed the leadership of <orgName>Congress</orgName> on exactly which individuals we were investigating and that we had told those Congressional leaders that we were not personally investigating <roleName>President</roleName> <ref>Trump</ref>. I reminded him I had previously told him that.</said></p>
+                    
+                    <p>He repeatedly told me, <quote corresp="#Trump">We need to get that fact out.</quote> (I did not tell the <roleName>President</roleName> that the <orgName>FBI</orgName> and the <orgName>Department of Justice</orgName> had been reluctant to make public statements that we did not have an open case on <roleName>President</roleName> <ref>Trump</ref> for a number of reasons, most importantly because it would create a duty to correct, should that change.)</p>
+                    
+                    <p>The <roleName>President</roleName> went on to say that <said corresp="#Trump" direct="false">if there were some "satellite" associates of his who did something wrong, it would be good to find that out but that he hadn't done anything wrong and hoped I would find a way to get it out that we weren't investigating him.</said></p>
+                    
+                   <p> In an abrupt shift, he turned the conversation to <orgName>FBI</orgName> <roleName>deputy director</roleName> Andrew McCabe, saying <said corresp="#Trump" direct="false">he hadn't brought up "the McCabe thing" because I had said McCabe was honourable, although [<roleName>Virginia Governor</roleName> Terry] McAuliffe was close to the Clintons and had given him (I think he meant <roleName>deputy director</roleName> McCabe's wife) campaign money.</said></p>
+                    
+                   <p> Although I didn't understand why the <roleName>President</roleName> was bringing this up, I repeated that <said corresp="#Comey" direct="false">Mr. McCabe was an honourable person.</said> He finished by stressing <said corresp="#Trump" direct="false">"the cloud" that was interfering with his ability to make deals for the country and said he hoped I could find a way to get out that he wasn't being investigated.</said></p>
+                    
+                    <p>I told him <said corresp="#Comey" direct="false">I would see what we could do and that we would do our investigative work well and as quickly as we could.</said> Immediately after that conversation, I called <roleName>acting deputy attorney general</roleName> Dana Boente (<roleName>AG</roleName> Sessions had by then recused himself on all <country>Russia</country>-related matters) to report the substance of the call from the <roleName>President</roleName> and said <said corresp="#Comey" direct="false">I would await his guidance.</said></p>
+                    
+                   <p>I did not hear back from him before the <roleName>President</roleName> called me again two weeks later.</p>   
+                    
+                </div>
+                  
+                  <div type="Narrative">
+                      
+                      <head>April 11 phone call</head>
+                     <p> On the morning of April 11, the <roleName>President</roleName> called me and asked <said corresp="#Trump" direct="false">what I had done about his request that I "get out" that he is not personally under investigation.</said> I replied that <said corresp="#Comey" direct="false">I had passed his request to the <roleName>acting deputy attorney general</roleName>, but I had not heard back.</said></p>
+                      
+                      <p>He replied that <said corresp="#Trump" direct="false">"the cloud" was getting in the way of his ability to do his job.</said> He said that <said corresp="#Trump" direct="false">perhaps he would have his people reach out to the acting deputy attorney general.</said> I said <said corresp="#Comey" direct="false">that was the way his request should be handled.</said></p> 
+                     <p> I said <said corresp="#Comey" direct="false">the <roleName>White House counsel</roleName> should contact the leadership of <orgName>DOJ</orgName> to make the request, which was the traditional channel.</said> He said <said corresp="#Trump" direct="false">he would do that</said> and added, <quote corresp="#Trump">Because I have been very loyal to you, very loyal; we had that thing you know.</quote> I did not reply or ask him what he meant by "that thing."</p>
+                      
+                      <p>I said only that <said corresp="#Comey" direct="false">the way to handle it was to have the <roleName>White House counsel</roleName> call the <roleName>acting deputy attorney general</roleName>.</said> He said <said corresp="#Trump" direct="false">that was what he would do</said> and the call ended.</p>
+                      
+                     <p> That was the last time I spoke with <roleName>President</roleName> <ref>Trump</ref>.</p>
+                      
+                      
+                  </div>
+                  
+            </div>
+        </body>
+        
+<back>
+    <listPerson>
+        <person xml:id="Burr">
+            <persName>Richard M. Burr</persName>
+        </person>
+        <person xml:id="Comey">
+            <persName>James B. Comey</persName>
+        </person>
+        <person xml:id="Flynn">
+            <persName>Michael Flynn</persName>
+        </person>
+        <person xml:id="Kushner">
+            <persName>Jared Kushner</persName>
+        </person>
+        <person xml:id="Mattis">
+            <persName>James Mattis</persName>
+        </person>
+        <person xml:id="Obama">
+            <persName>Barack H. Obama</persName>
+        </person>
+        <person xml:id="Pence">
+            <persName>Michael Pence</persName>
+        </person>
+        <person xml:id="Priebus">
+            <persName>Reince Priebus</persName>
+        </person>
+        <person xml:id="Sessions">
+            <persName>Jeffrey B. Sessions</persName>
+        </person>
+        <person xml:id="Trump">
+            <persName>Donald J. Trump</persName>
+        </person>
+        <person xml:id="Warner">
+            <persName>Mark R. Warner</persName>
+        </person>
+        <person xml:id="Kislyak">
+            <persName>Sergei Kislyak</persName>
+        </person>
+    </listPerson>
+    
+    <interpGrp type="feeling">
+        <interp xml:id="surprise">Being surprised by something</interp>
+        <interp xml:id="anger">Being angry about something</interp>
+        <interp xml:id="discomfort">Feeling uncomfortable or uneasy</interp>
+        <interp xml:id="uncertainty">Being uncertain</interp>
+        <interp xml:id="confusion">Feeing confused</interp>
+        <interp xml:id="embarassment">Being embarassed</interp>
+        <interp xml:id="reaction">A reaction, otherwise unspecified</interp>
+        <interp xml:id="compelled">Feeling compelled</interp>
+        <interp xml:id="suspicion">Having a suspicion or gut feeling or instinctive belief</interp>
+        <interp xml:id="concern">Being concerned about something</interp>
+        <interp xml:id="happy">Being happy or pleased</interp>
+        <interp xml:id="certainty">Being certain of something</interp>
+    </interpGrp>
+</back>        
+    </text>
+</TEI>
+
