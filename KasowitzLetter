@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marc Kasowitz's Statement, Copyedited by the AV Club</title>
+                <author>
+                    <persName>Marc Kasowitz</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>  
+            </publicationStmt>
+            <sourceDesc>
+      <bibl>http://www.avclub.com/article/v-club-copy-edited-predisent-trumps-lawyer-and-res-256530
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="Statement">
+                <p>I am Marc Kasowitz, <choice>
+                    <sic>Predisent</sic>
+                    <corr>President</corr></choice> Trump’s personal lawyer.</p>  
+                
+                <p>Contrary to numerous false press accounts leading up to today’s hearing, <choice><orig>Mr<add>.</add></orig><corr>Former FBI Director James</corr></choice> Comey has now finally confirmed publicly what he repeatedly told the President privately: The President was not under investigation as part of any probe into Russian interference <add>in the 2016 election</add>.  He also admitted that there is no evidence that a single vote changed as a result of any Russian interference.</p>
+                
+               <p> Mr<add>.</add> Comey’s testimony also makes clear that the President never sought to impede the investigation into attempted Russian interference in the 2016 election, and in fact, according to Mr. Comey, the President told <choice><orig>Mr. Comey</orig><corr>him</corr></choice> <add>that</add> “it would be good to find out” <del>in that investigation</del> if there were “some ‘satellite’ associates of <seg xml:id="n1">his</seg> <note type="comment" anchored="true" target="#n1">unclear antecedents</note> who did something wrong.” And <seg xml:id="n2">he</seg><note type="comment" anchored="true" target="#n2"></note> did not exclude anyone from that statement.</p>   
+                
+                <p>Consistent with that statement, the President never, in form or substance, directed or suggested that Mr. Comey stop investigating anyone, <choice><orig>including suggesting</orig><corr>nor did he suggest</corr></choice> that that Mr. Comey“let Flynn go.” As he publicly stated the <seg xml:id="n3">next day</seg><note type="comment" anchored="true" target="#n3">?</note>, he did say to Mr. Comey, “General Flynn is a good guy, he has been through a lot” and also <del>"</del>asked<add>"</add> how is General Flynn <del>is</del> doing.” <add>NSA director</add> Admiral <add>Mike</add> Rogers testified that the President never “directed [him] to do anything . . . illegal, immoral, unethical or inappropriate” and never “pressured [him] to do so.”  Director <choice><orig>Coates</orig><corr>Coats</corr></choice> said the same thing. The President likewise never pressured Mr. Comey.<del>.</del></p>   
+                
+                <p>The President also never told Mr. Comey, “I need loyalty, I expect loyalty” in form or substance.   Of course, the Office of the President is entitled to expect loyalty from those who are serving in an administration, and, from before this President took office to this day, it is overwhelmingly clear that there have been and continue to be those in government who are actively attempting to undermine this administration with selective and illegal leaks of classified information and privileged communications. Mr. Comey has now admitted that he is one of these leakers.</p>
+                
+                <p>Today, Mr. Comey admitted that he unilaterally and surreptitiously made unauthorized disclosures to the press of privileged communications with the President.  The leaks of this privileged information began no later than March 2017 when friends of Mr. Comey have stated he disclosed to them the conversations he had with the President during their January 27, 2017 dinner and February 14, 2017 White House meeting.</p>  
+                
+                <p>Today, Mr. Comey admitted that he leaked to friends his purported memos of these privileged conversations, one of which he testified was classified.  He also testified that immediately after he was terminated<add>,</add> he authorized his friends to leak the contents of these memos to the press in order to “prompt the appointment of a special counsel.”</p>  
+                
+                <p>Although Mr. Comey testified he only leaked the memos in response to a tweet, the public record reveals that <choice><sic>t</sic><corr>T</corr></choice>he New York Times was quoting from these memos the day before the referenced tweet, which belies Mr. Comey’s excuse for this unauthorized disclosure of privileged information and appears to <add>be</add> entirely retaliatory.  We will leave it <add>to</add> the appropriate authorities to determine whether this leaks should be investigated along with all those others being investigated.<sic>.</sic></p>   
+                
+                <p>In sum, it is now established that <sic>there</sic> the President was not being investigated for colluding with the <add>Russian Government</add> or attempting to obstruct that investigation.  As the Committee pointed out today, these important facts for the country to know are virtually the only facts that have not <add>been</add> leaked during the long course of these events.</p> 
+                
+                
+            </div>
+        </body>
+        
+    </text>
+</TEI>
